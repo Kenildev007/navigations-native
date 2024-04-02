@@ -4,7 +4,7 @@ import React from 'react'
 const Page1 = ({ navigation }) => {
 
     const navigate = () => {
-        navigation.navigate('Home');
+        navigation.navigate('Profile');
     }
     return (
         <View style={styles.view}>

@@ -2,19 +2,20 @@ import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 
 const Home = ({navigation}) => {
-
     const navigate = () => {
-        navigation.navigate('TabNavigations');
+        navigation.navigate('TabNavigations'); // Ensure that the route name matches the drawer navigator's name
     }
+
     return (
         <View style={styles.view}>
             <Text>This is Home</Text>
             <TouchableOpacity onPress={navigate} style={styles.mainText}>
-                <Text>Go to Page 1</Text>
+                <Text>Go to Drawer Navigation</Text>
             </TouchableOpacity>
         </View>
     )
 }
+
 
 export default Home
 

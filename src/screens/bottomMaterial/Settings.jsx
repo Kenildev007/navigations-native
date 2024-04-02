@@ -10,7 +10,7 @@ const Settings = ({ navigation }) => {
         <View style={styles.view}>
             <Text>Settings</Text>
             <TouchableOpacity onPress={navigate} style={styles.mainText}>
-                <Text>Home</Text>
+                <Text>Go to Home</Text>
             </TouchableOpacity>
         </View>
     )
